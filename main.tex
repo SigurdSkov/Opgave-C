@@ -1,0 +1,55 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{au_journal}
+
+\newcommand\mymaketitle[1]{
+   \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+   \rule{\textwidth}{0.4pt}
+   \\   
+   \huge \bf #1\\
+   \vspace{-8pt}
+   \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+   \rule{\textwidth}{1.6pt}
+}
+
+\begin{document}
+
+\title{
+	\mymaketitle{E2ISE\\Opgave C - Slusesystem}
+}
+\author{
+   \begin{tabular}{lcc}
+      \multicolumn{3}{c}{\textbf{Gruppe \#37}}\\
+      \textbf{Navn} & \textbf{Studienummer} & \textbf{Retning}\\
+      \toprule
+      Adam Ryager Høj & 201803767 & E\\
+      Sigurd Skov Jensen & 201804402 & I\\
+      Rasmus Kahr& 201803491 & E\\
+   \end{tabular}
+}
+\date{\textbf{Afleveret:} 23. marts 2020}
+\maketitle
+\vspace{5cm}
+% \begin{center}
+%    Kontaktperson: ARH - \texttt{201803767@post.au.dk}\\
+%    Reviewgruppe: \#38
+% \end{center}
+
+\clearpage
+
+\tableofcontents
+\listoffigures
+\clearpage
+
+\input{opgave_1.tex}
+\clearpage
+
+\input{opgave_2.tex}
+\clearpage
+
+\input{opgave_3.tex}
+\clearpage
+
+\input{opgave_4.tex}
+\clearpage
+
+\end{document}
